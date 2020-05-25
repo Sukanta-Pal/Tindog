@@ -1,0 +1,148 @@
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p-head {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.s-head {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top.container-fluid {
+    padding: 5% 10%;
+    
+}
+
+.color {
+    background: red;
+
+}
+
+#intro {
+    font-size: 4rem;
+    color: beige;
+    margin-bottom: 4rem;
+    text-align: left;
+    line-height: 5.5rem;
+}
+
+.navbar-nav {
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+nav {
+    margin-bottom: 5rem;
+}
+
+.download-button {
+    margin: 1.5rem 0.5rem;
+}
+#feature {
+     background: chartreuse;
+     position: relative;
+     padding: 7% 15%;
+        
+}
+.title-image {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+.icon {
+    margin-bottom: 30px;
+}
+
+.feature-title {
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#feature p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.icon :hover {
+    color: darkseagreen;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.t-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: honeydew;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+
+}
+
+.t-image {
+    border-radius: 50%;
+    width: 20%;
+    margin: 1.5rem;
+}
+
+.loc {
+    color: ivory;
+    font-size: 1.5rem;
+}
+
+.press-logo {
+    width: 20%;
+    margin: 1.5rem;
+    
+}
+
+.carousel-inner {
+    padding: 5% 10%;
+}
+
+#plans {
+    margin: 4rem 0;
+}
+
+#plans p {
+    font-family: 1.5rem;
+    margin: 2rem;
+}
+
+#download {
+    padding: 5% 10%;
+    
+}
+#download h3 {
+    color: lavenderblush;
+    margin: 5rem;
+}
+.social-icon {
+    margin: 20px;
+}
+
+#contact {
+    padding: 5%;
+    
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
